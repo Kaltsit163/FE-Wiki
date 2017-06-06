@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import "../../sass/common.scss";
+
+.author-wrap {
+  text-align: center;
+  .author-head {
+    position: relative;
+    #author {
+      border-radius: 10px;
+    }
+    #triangle {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+    .author-img {
+      position: absolute;
+      top: 48%;
+      right: 50px;
+      transform: translate3d(0, -50%, 0);
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+  }
+  .author-body {
+    font-size: 15px;
+    p {
+      margin: 0;
+    }
+  }
+}
